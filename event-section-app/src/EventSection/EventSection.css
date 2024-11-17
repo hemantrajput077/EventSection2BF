@@ -1,0 +1,80 @@
+.event-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.event-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.event-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.event-filters button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.event-filters button:hover {
+  background-color: #0056b3;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+.event-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.event-card p strong {
+  color: #333;
+}
+
+.event-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.event-button:hover {
+  background-color: #218838;
+}
